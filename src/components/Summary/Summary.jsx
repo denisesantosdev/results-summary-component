@@ -13,7 +13,7 @@ function Summary(props) {
             <div className="summary-category">
               <img
                 src={item.icon}
-                alt={item.category}
+                alt={''}
               />
               <p>{item.category}</p>
             </div>
