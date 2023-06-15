@@ -1,0 +1,58 @@
+.user-results {
+  background-image: var(--gradient);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+}
+
+.user-results *:where(:not(:last-child)) {
+  margin-bottom: 1.5rem;
+}
+
+.user-results h1 {
+  color: var(--light-clr-100);
+  font-size: 1.125rem;
+}
+
+.score-container {
+  background-image: linear-gradient(
+    to top,
+    var(--neutral-clr),
+    var(--violet-200)
+  );
+  border-radius: 50%;
+  padding: 1.5rem;
+  width: 9rem;
+  height: 9rem;
+  display: grid;
+  place-content: center;
+}
+
+.score {
+  color: var(--light-clr-200);
+  font-size: 3rem;
+  margin-bottom: .3rem;
+}
+
+.score-container span {
+  color: var(--light-clr-100);
+}
+
+.score-description h2 {
+  color: var(--light-clr-200);
+}
+
+.score-description p {
+  color: var(--light-clr-100);
+  font-size: 1.125rem;
+}
+
+
+@media (min-width: 700px) {
+    .user-results {
+        border-radius: 1rem;
+    }
+}

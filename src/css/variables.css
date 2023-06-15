@@ -1,0 +1,14 @@
+:root {
+  --violet-100: hsl(252, 100%, 67%);
+  --violet-200: hsla(256, 72%, 46%, 1);
+  --violet-300: hsl(241, 81%, 54%);
+  --light-clr-100: hsla(222, 100%, 96%, 0.714);
+  --light-clr-200: white;
+  --neutral-clr: hsla(241, 72%, 46%, 0);
+
+  --gradient: linear-gradient(
+    to bottom,
+    var(--violet-100),
+    var(--violet-300)
+  );
+}
