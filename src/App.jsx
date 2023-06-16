@@ -7,8 +7,6 @@ import UserResult from "./components/UserResult/UserResult";
 import Button from "./components/Button/Button";
 import Summary from "./components/Summary/Summary";
 
-import reactionImg from "./assets/images/icon-reaction.svg";
-
 import summaryData from './assets/data.json'
 
 function App() {
