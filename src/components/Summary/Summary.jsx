@@ -2,7 +2,6 @@ import React from "react";
 import "./Summary.css";
 
 function Summary(props) {
-  console.log(props.data);
   return (
     <ul>
       {props.data.map((item, index) => {
@@ -13,7 +12,7 @@ function Summary(props) {
             <div className="summary-category">
               <img
                 src={item.icon}
-                alt={''}
+                alt={""}
               />
               <p>{item.category}</p>
             </div>

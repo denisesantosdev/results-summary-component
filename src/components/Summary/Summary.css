@@ -17,7 +17,6 @@
 }
 
 .summary-category {
---transparency: 50%;
   display: flex;
   align-content: center;
   gap: 0.5rem;

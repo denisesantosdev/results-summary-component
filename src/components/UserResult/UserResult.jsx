@@ -7,7 +7,7 @@ function UserResult() {
             <h1>Your Result</h1>
             <div className='score-container'>
                 <h2 className='score'>76</h2>
-                <span>of 100</span>
+                <p>of 100</p>
             </div>
             <div className='score-description'>
                 <h2>Great</h2>

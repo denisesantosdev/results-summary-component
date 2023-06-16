@@ -37,7 +37,7 @@
   margin-bottom: .3rem;
 }
 
-.score-container span {
+.score-container p {
   color: var(--light-clr-100);
 }
 
